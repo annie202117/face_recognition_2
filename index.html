@@ -1,0 +1,35 @@
+<div class="container">
+
+    <center>
+
+        <br><br>
+
+        <p stle="font_size: 25px;">This Model is trained to identify thses family members of mine:</p>
+
+        <label>Webcam View -</label>
+
+        <br>Mum<br>
+
+        <br>Dad<br>
+
+        <br>Me<br>
+
+
+        <label>Webcam View - </label>
+        <div id="camera"></div>
+        <br><br>
+        <div id="result"></div>
+        <br><br>
+        <button onclick="take_snapshot();" class="btn btn-info">Capture Image</button>
+      <br><br>
+      <button onclick="check();" class="btn btn-success">Identify Image</button>
+
+      <p style="font-size: 22px;">Person : <span id="result_object_name"></span> </p>
+      <p style="font-size: 22px;">Accuracy : <span id="result_object_accuracy"></span> </p>
+    </center>
+
+  </div>
+<script src="main.js"></script>
+
+  </body>
+</html>
